@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: ag-config
+      label: master
+      profile: login
+      name: ag

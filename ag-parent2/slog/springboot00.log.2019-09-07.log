@@ -1,0 +1,804 @@
+2019-09-07 22:24:17.735 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$eb3a2c34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-07 22:24:18.093 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-09-07 22:24:18.142 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-09-07 22:24:18.565 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-07 22:24:18.565 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-07 22:24:18.695 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-07 22:24:18.695 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-07 22:24:18.916 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-07 22:24:19.048 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-09-07 22:24:19.049 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-09-07 22:24:19.049 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-09-07 22:24:19.049 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-09-07 22:24:19.049 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-09-07 22:24:19.049 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-09-07 22:24:19.049 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-09-07 22:24:19.267 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-09-07 22:24:19.272 [main] INFO  com.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+2019-09-07 22:24:19.279 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1567866259277 with initial instances count: 3
+2019-09-07 22:24:19.714 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://ZKHGUYG0GEXPTS2:8750/
+2019-09-07 22:24:21.576 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=uc, profiles=[dev], label=master, version=75b880b614e0a8cfa7116fc05df66e11e05359ea, state=null
+2019-09-07 22:24:21.577 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/bodyandgirl/gittest2.git/uc-dev.yml'}]}
+2019-09-07 22:24:21.582 [main] INFO  com.UseCenterBootStrap - No active profile set, falling back to default profiles: default
+2019-09-07 22:24:26.593 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-09-07 22:24:26.827 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=dcf18841-c218-3e0c-bf04-04327c1d8d11
+2019-09-07 22:24:26.963 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cf202937] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-07 22:24:26.988 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$eb3a2c34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-07 22:24:27.359 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2019-09-07 22:24:27.379 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2019-09-07 22:24:27.393 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-07 22:24:27.394 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-09-07 22:24:27.402 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-09-07 22:24:27.402 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-09-07 22:24:27.402 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-09-07 22:24:27.403 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-09-07 22:24:28.502 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-09-07 22:24:28.681 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-07 22:24:28.681 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7081 ms
+2019-09-07 22:24:28.867 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-07 22:24:28.867 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-07 22:24:28.877 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@90e5788
+2019-09-07 22:24:29.004 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-09-07 22:24:29.358 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-09-07 22:24:29.998 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-07 22:24:29.998 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-07 22:24:30.247 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-07 22:24:31.538 [main] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-09-07 22:24:31.549 [main] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-09-07 22:24:31.559 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-07 22:24:31.710 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-09-07 22:24:31.716 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-09-07 22:24:31.721 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-07 22:24:31.721 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-07 22:24:31.721 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-07 22:24:31.721 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-07 22:24:31.816 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-07 22:24:31.817 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-09-07 22:24:31.818 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-09-07 22:24:31.818 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-09-07 22:24:31.818 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-09-07 22:24:31.819 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-09-07 22:24:31.819 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-09-07 22:24:31.819 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-09-07 22:24:31.827 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-09-07 22:24:31.829 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-09-07 22:24:31.833 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-07 22:24:31.836 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1567866271836 with initial instances count: 3
+2019-09-07 22:24:31.838 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application USER-CENTER with eureka with status UP
+2019-09-07 22:24:31.838 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1567866271838, current=UP, previous=STARTING]
+2019-09-07 22:24:31.842 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-CENTER/ZKHGUYG0GEXPTS2:user-center:7777: registering service...
+2019-09-07 22:24:31.871 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2019-09-07 22:24:31.897 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-CENTER/ZKHGUYG0GEXPTS2:user-center:7777 - registration status: 204
+2019-09-07 22:24:31.910 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2019-09-07 22:24:31.911 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 7777
+2019-09-07 22:24:31.914 [main] INFO  com.UseCenterBootStrap - Started UseCenterBootStrap in 16.723 seconds (JVM running for 18.272)
+2019-09-07 22:24:32.031 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-07 22:24:32.031 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-07 22:24:32.053 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+2019-09-07 22:24:32.114 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://ZKHGUYG0GEXPTS2:8750/
+2019-09-07 22:24:33.962 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=uc, profiles=[dev], label=master, version=75b880b614e0a8cfa7116fc05df66e11e05359ea, state=null
+2019-09-07 22:29:31.823 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-07 22:34:31.828 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-07 22:39:31.832 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-07 22:40:20.885 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ccf9ad8d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-07 22:40:21.256 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-09-07 22:40:21.317 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-09-07 22:40:21.758 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-07 22:40:21.759 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-07 22:40:21.892 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-07 22:40:21.892 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-07 22:40:22.144 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-07 22:40:22.277 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-09-07 22:40:22.278 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-09-07 22:40:22.278 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-09-07 22:40:22.278 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-09-07 22:40:22.278 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-09-07 22:40:22.278 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-09-07 22:40:22.278 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-09-07 22:40:22.482 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-09-07 22:40:22.486 [main] INFO  com.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+2019-09-07 22:40:22.493 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1567867222491 with initial instances count: 3
+2019-09-07 22:40:22.931 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://ZKHGUYG0GEXPTS2:8750/
+2019-09-07 22:40:26.220 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=uc, profiles=[dev], label=master, version=75b880b614e0a8cfa7116fc05df66e11e05359ea, state=null
+2019-09-07 22:40:26.221 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/bodyandgirl/gittest2.git/uc-dev.yml'}]}
+2019-09-07 22:40:26.226 [main] INFO  com.UseCenterBootStrap - No active profile set, falling back to default profiles: default
+2019-09-07 22:40:31.169 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-09-07 22:40:31.407 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=dcf18841-c218-3e0c-bf04-04327c1d8d11
+2019-09-07 22:40:31.562 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b0dfaa90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-07 22:40:31.588 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ccf9ad8d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-07 22:40:31.955 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2019-09-07 22:40:31.978 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2019-09-07 22:40:31.991 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-07 22:40:31.991 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-09-07 22:40:32.001 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-09-07 22:40:32.001 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-09-07 22:40:32.001 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-09-07 22:40:32.002 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-09-07 22:40:33.089 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-09-07 22:40:33.261 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-07 22:40:33.262 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7013 ms
+2019-09-07 22:40:33.405 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-07 22:40:33.405 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-07 22:40:33.415 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@33966111
+2019-09-07 22:40:33.534 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-09-07 22:40:34.049 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-09-07 22:40:34.716 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-07 22:40:34.716 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-07 22:40:34.956 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-07 22:40:36.239 [main] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-09-07 22:40:36.252 [main] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-09-07 22:40:36.262 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-07 22:40:36.409 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-09-07 22:40:36.415 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-09-07 22:40:36.420 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-07 22:40:36.420 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-07 22:40:36.420 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-07 22:40:36.420 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-07 22:40:36.513 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-07 22:40:36.515 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-09-07 22:40:36.516 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-09-07 22:40:36.516 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-09-07 22:40:36.516 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-09-07 22:40:36.516 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-09-07 22:40:36.516 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-09-07 22:40:36.516 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-09-07 22:40:36.524 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-09-07 22:40:36.526 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-09-07 22:40:36.529 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-07 22:40:36.531 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1567867236531 with initial instances count: 3
+2019-09-07 22:40:36.533 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application USER-CENTER with eureka with status UP
+2019-09-07 22:40:36.534 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1567867236534, current=UP, previous=STARTING]
+2019-09-07 22:40:36.538 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-CENTER/ZKHGUYG0GEXPTS2:user-center:7777: registering service...
+2019-09-07 22:40:36.568 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2019-09-07 22:40:36.597 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-CENTER/ZKHGUYG0GEXPTS2:user-center:7777 - registration status: 204
+2019-09-07 22:40:36.611 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2019-09-07 22:40:36.613 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 7777
+2019-09-07 22:40:36.615 [main] INFO  com.UseCenterBootStrap - Started UseCenterBootStrap in 19.095 seconds (JVM running for 20.813)
+2019-09-07 22:40:37.156 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-07 22:40:37.156 [RMI TCP Connection(6)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-07 22:40:37.173 [RMI TCP Connection(6)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2019-09-07 22:40:37.217 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://ZKHGUYG0GEXPTS2:8750/
+2019-09-07 22:40:39.079 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=uc, profiles=[dev], label=master, version=75b880b614e0a8cfa7116fc05df66e11e05359ea, state=null
+2019-09-07 22:46:35.642 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$aa3e011e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-07 22:46:36.016 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-09-07 22:46:36.067 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-09-07 22:46:36.502 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-07 22:46:36.502 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-07 22:46:36.634 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-07 22:46:36.635 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-07 22:46:36.856 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-07 22:46:36.990 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-09-07 22:46:36.990 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-09-07 22:46:36.990 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-09-07 22:46:36.990 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-09-07 22:46:36.991 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-09-07 22:46:36.991 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-09-07 22:46:36.991 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-09-07 22:46:37.207 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-09-07 22:46:37.211 [main] INFO  com.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+2019-09-07 22:46:37.218 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1567867597216 with initial instances count: 3
+2019-09-07 22:46:37.644 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://ZKHGUYG0GEXPTS2:8750/
+2019-09-07 22:46:39.648 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=uc, profiles=[dev], label=master, version=75b880b614e0a8cfa7116fc05df66e11e05359ea, state=null
+2019-09-07 22:46:39.649 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/bodyandgirl/gittest2.git/uc-dev.yml'}]}
+2019-09-07 22:46:39.654 [main] INFO  com.UseCenterBootStrap - No active profile set, falling back to default profiles: default
+2019-09-07 22:46:44.558 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-09-07 22:46:44.787 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=dcf18841-c218-3e0c-bf04-04327c1d8d11
+2019-09-07 22:46:44.923 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8e23fe21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-07 22:46:44.946 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$aa3e011e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-07 22:46:45.315 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2019-09-07 22:46:45.337 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2019-09-07 22:46:45.351 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-07 22:46:45.351 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-09-07 22:46:45.359 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-09-07 22:46:45.360 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-09-07 22:46:45.360 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-09-07 22:46:45.360 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-09-07 22:46:46.457 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-09-07 22:46:46.683 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-07 22:46:46.683 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7012 ms
+2019-09-07 22:46:46.827 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-07 22:46:46.827 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-07 22:46:46.837 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@35537fe
+2019-09-07 22:46:46.971 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-09-07 22:46:47.325 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-09-07 22:46:47.960 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-07 22:46:47.960 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-07 22:46:48.204 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-07 22:46:49.487 [main] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-09-07 22:46:49.499 [main] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-09-07 22:46:49.510 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-07 22:46:49.660 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-09-07 22:46:49.666 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-09-07 22:46:49.670 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-07 22:46:49.670 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-07 22:46:49.670 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-07 22:46:49.670 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-07 22:46:49.764 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-07 22:46:49.766 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-09-07 22:46:49.766 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-09-07 22:46:49.767 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-09-07 22:46:49.767 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-09-07 22:46:49.767 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-09-07 22:46:49.767 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-09-07 22:46:49.767 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-09-07 22:46:49.773 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-09-07 22:46:49.775 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-09-07 22:46:49.779 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-07 22:46:49.781 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1567867609781 with initial instances count: 3
+2019-09-07 22:46:49.783 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application USER-CENTER with eureka with status UP
+2019-09-07 22:46:49.784 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1567867609784, current=UP, previous=STARTING]
+2019-09-07 22:46:49.787 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-CENTER/ZKHGUYG0GEXPTS2:user-center:7777: registering service...
+2019-09-07 22:46:49.819 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2019-09-07 22:46:49.841 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-CENTER/ZKHGUYG0GEXPTS2:user-center:7777 - registration status: 204
+2019-09-07 22:46:49.857 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2019-09-07 22:46:49.858 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 7777
+2019-09-07 22:46:49.861 [main] INFO  com.UseCenterBootStrap - Started UseCenterBootStrap in 16.726 seconds (JVM running for 18.361)
+2019-09-07 22:46:50.022 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-07 22:46:50.023 [RMI TCP Connection(6)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-07 22:46:50.041 [RMI TCP Connection(6)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+2019-09-07 22:46:50.070 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://ZKHGUYG0GEXPTS2:8750/
+2019-09-07 22:46:51.955 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=uc, profiles=[dev], label=master, version=75b880b614e0a8cfa7116fc05df66e11e05359ea, state=null
+2019-09-07 23:17:31.946 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@17:20 - no applicable action for [level], current ElementPath  is [[configuration][appender][filter][level]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:22 - no applicable action for [onMatch], current ElementPath  is [[configuration][appender][filter][onMatch]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@19:25 - no applicable action for [onMismatch], current ElementPath  is [[configuration][appender][filter][onMismatch]]
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@58a9760d - A "org.springframework.boot.web.servlet.FilterRegistrationBean" object is not assignable to a "ch.qos.logback.core.filter.Filter" variable.
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@58a9760d - The class "ch.qos.logback.core.filter.Filter" was loaded by 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@58a9760d - [sun.misc.Launcher$AppClassLoader@18b4aac2] whereas object of type 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@58a9760d - "org.springframework.boot.web.servlet.FilterRegistrationBean" was loaded by [sun.misc.Launcher$AppClassLoader@18b4aac2].
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:224)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:75)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:292)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:265)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:228)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:201)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:139)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:191)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:105)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:71)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.UseCenterBootStrap.main(UseCenterBootStrap.java:15)
+2019-09-07 23:17:31.956 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@17:20 - no applicable action for [level], current ElementPath  is [[configuration][appender][filter][level]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:22 - no applicable action for [onMatch], current ElementPath  is [[configuration][appender][filter][onMatch]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@19:25 - no applicable action for [onMismatch], current ElementPath  is [[configuration][appender][filter][onMismatch]]
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@58a9760d - A "org.springframework.boot.web.servlet.FilterRegistrationBean" object is not assignable to a "ch.qos.logback.core.filter.Filter" variable.
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@58a9760d - The class "ch.qos.logback.core.filter.Filter" was loaded by 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@58a9760d - [sun.misc.Launcher$AppClassLoader@18b4aac2] whereas object of type 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@58a9760d - "org.springframework.boot.web.servlet.FilterRegistrationBean" was loaded by [sun.misc.Launcher$AppClassLoader@18b4aac2].
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:224)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:75)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:292)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:265)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:228)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:201)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:139)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:191)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:105)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:71)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.UseCenterBootStrap.main(UseCenterBootStrap.java:15)
+2019-09-07 23:17:58.989 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@17:20 - no applicable action for [level], current ElementPath  is [[configuration][appender][filter][level]]
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@4988d8b8 - A "org.springframework.boot.web.servlet.FilterRegistrationBean" object is not assignable to a "ch.qos.logback.core.filter.Filter" variable.
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@4988d8b8 - The class "ch.qos.logback.core.filter.Filter" was loaded by 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@4988d8b8 - [sun.misc.Launcher$AppClassLoader@18b4aac2] whereas object of type 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@4988d8b8 - "org.springframework.boot.web.servlet.FilterRegistrationBean" was loaded by [sun.misc.Launcher$AppClassLoader@18b4aac2].
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:224)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:75)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:292)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:265)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:228)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:201)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:139)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:191)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:105)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:71)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.UseCenterBootStrap.main(UseCenterBootStrap.java:15)
+2019-09-07 23:17:58.999 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@17:20 - no applicable action for [level], current ElementPath  is [[configuration][appender][filter][level]]
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@4988d8b8 - A "org.springframework.boot.web.servlet.FilterRegistrationBean" object is not assignable to a "ch.qos.logback.core.filter.Filter" variable.
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@4988d8b8 - The class "ch.qos.logback.core.filter.Filter" was loaded by 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@4988d8b8 - [sun.misc.Launcher$AppClassLoader@18b4aac2] whereas object of type 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@4988d8b8 - "org.springframework.boot.web.servlet.FilterRegistrationBean" was loaded by [sun.misc.Launcher$AppClassLoader@18b4aac2].
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:224)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:75)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:292)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:265)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:228)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:201)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:139)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:191)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:105)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:71)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.UseCenterBootStrap.main(UseCenterBootStrap.java:15)
+2019-09-07 23:18:15.808 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@548e6d58 - A "org.springframework.boot.web.servlet.FilterRegistrationBean" object is not assignable to a "ch.qos.logback.core.filter.Filter" variable.
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@548e6d58 - The class "ch.qos.logback.core.filter.Filter" was loaded by 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@548e6d58 - [sun.misc.Launcher$AppClassLoader@18b4aac2] whereas object of type 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@548e6d58 - "org.springframework.boot.web.servlet.FilterRegistrationBean" was loaded by [sun.misc.Launcher$AppClassLoader@18b4aac2].
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:224)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:75)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:292)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:265)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:228)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:201)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:139)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:191)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:105)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:71)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.UseCenterBootStrap.main(UseCenterBootStrap.java:15)
+2019-09-07 23:18:15.817 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@548e6d58 - A "org.springframework.boot.web.servlet.FilterRegistrationBean" object is not assignable to a "ch.qos.logback.core.filter.Filter" variable.
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@548e6d58 - The class "ch.qos.logback.core.filter.Filter" was loaded by 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@548e6d58 - [sun.misc.Launcher$AppClassLoader@18b4aac2] whereas object of type 
+ERROR in ch.qos.logback.core.joran.util.PropertySetter@548e6d58 - "org.springframework.boot.web.servlet.FilterRegistrationBean" was loaded by [sun.misc.Launcher$AppClassLoader@18b4aac2].
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:224)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:75)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:292)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:265)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:228)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:201)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:139)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:191)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:105)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:71)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.UseCenterBootStrap.main(UseCenterBootStrap.java:15)
+2019-09-07 23:18:45.360 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [filter] of type [ch.qos.logback.core.filter.Filter] java.lang.InstantiationException
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:224)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:75)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:292)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:265)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:228)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:201)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:139)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:191)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:105)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:71)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.UseCenterBootStrap.main(UseCenterBootStrap.java:15)
+2019-09-07 23:18:45.365 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [filter] of type [ch.qos.logback.core.filter.Filter] java.lang.InstantiationException
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:224)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:75)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:292)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:265)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:228)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:201)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:139)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:191)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:105)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:71)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.UseCenterBootStrap.main(UseCenterBootStrap.java:15)
+2019-09-07 23:19:36.578 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9dba34c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-07 23:19:36.947 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-09-07 23:19:37.000 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-09-07 23:19:37.462 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-07 23:19:37.463 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-07 23:19:37.598 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-07 23:19:37.599 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-07 23:19:37.826 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-07 23:19:38.001 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-09-07 23:19:38.002 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-09-07 23:19:38.002 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-09-07 23:19:38.002 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-09-07 23:19:38.002 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-09-07 23:19:38.002 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-09-07 23:19:38.002 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-09-07 23:19:38.277 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-09-07 23:19:38.283 [main] INFO  com.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+2019-09-07 23:19:38.291 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1567869578290 with initial instances count: 3
+2019-09-07 23:19:38.761 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://ZKHGUYG0GEXPTS2:8750/
+2019-09-07 23:19:41.673 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=uc, profiles=[dev], label=master, version=75b880b614e0a8cfa7116fc05df66e11e05359ea, state=null
+2019-09-07 23:19:41.674 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/bodyandgirl/gittest2.git/uc-dev.yml'}]}
+2019-09-07 23:19:41.679 [main] INFO  com.UseCenterBootStrap - No active profile set, falling back to default profiles: default
+2019-09-07 23:19:46.952 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-09-07 23:19:47.185 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=dcf18841-c218-3e0c-bf04-04327c1d8d11
+2019-09-07 23:19:47.318 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$81a031c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-07 23:19:47.342 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9dba34c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-07 23:19:47.699 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2019-09-07 23:19:47.719 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2019-09-07 23:19:47.732 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-07 23:19:47.733 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-09-07 23:19:47.742 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-09-07 23:19:47.742 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-09-07 23:19:47.743 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-09-07 23:19:47.743 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-09-07 23:19:48.838 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-09-07 23:19:49.148 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-07 23:19:49.148 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7448 ms
+2019-09-07 23:19:49.298 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-07 23:19:49.298 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-07 23:19:49.309 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@41eeff3b
+2019-09-07 23:19:49.451 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-09-07 23:19:49.984 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-09-07 23:19:50.670 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-07 23:19:50.670 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-07 23:19:50.923 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-07 23:19:52.326 [main] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-09-07 23:19:52.337 [main] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-09-07 23:19:52.347 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-07 23:19:52.505 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-09-07 23:19:52.511 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-09-07 23:19:52.515 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-07 23:19:52.516 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-07 23:19:52.516 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-07 23:19:52.516 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-07 23:19:52.627 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-07 23:19:52.629 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-09-07 23:19:52.630 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-09-07 23:19:52.630 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-09-07 23:19:52.630 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-09-07 23:19:52.630 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-09-07 23:19:52.630 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-09-07 23:19:52.630 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-09-07 23:19:52.637 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-09-07 23:19:52.638 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-09-07 23:19:52.641 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-07 23:19:52.643 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1567869592643 with initial instances count: 3
+2019-09-07 23:19:52.645 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application USER-CENTER with eureka with status UP
+2019-09-07 23:19:52.646 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1567869592646, current=UP, previous=STARTING]
+2019-09-07 23:19:52.649 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-CENTER/ZKHGUYG0GEXPTS2:user-center:7777: registering service...
+2019-09-07 23:19:52.743 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2019-09-07 23:19:52.758 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-CENTER/ZKHGUYG0GEXPTS2:user-center:7777 - registration status: 204
+2019-09-07 23:19:52.795 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2019-09-07 23:19:52.797 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 7777
+2019-09-07 23:19:52.799 [main] INFO  com.UseCenterBootStrap - Started UseCenterBootStrap in 18.507 seconds (JVM running for 20.158)
+2019-09-07 23:19:53.382 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-07 23:19:53.382 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-07 23:19:53.400 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2019-09-07 23:19:53.466 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://ZKHGUYG0GEXPTS2:8750/
+2019-09-07 23:19:55.739 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=uc, profiles=[dev], label=master, version=75b880b614e0a8cfa7116fc05df66e11e05359ea, state=null
+2019-09-07 23:24:52.635 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-07 23:29:52.640 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-07 23:34:52.645 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-07 23:39:27.404 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e4160715] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-07 23:39:27.772 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-09-07 23:39:27.825 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-09-07 23:39:28.269 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-07 23:39:28.269 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-07 23:39:28.402 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-07 23:39:28.402 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-07 23:39:28.647 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-07 23:39:28.783 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-09-07 23:39:28.783 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-09-07 23:39:28.783 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-09-07 23:39:28.783 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-09-07 23:39:28.784 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-09-07 23:39:28.784 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-09-07 23:39:28.784 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-09-07 23:39:28.981 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-09-07 23:39:28.985 [main] INFO  com.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+2019-09-07 23:39:28.992 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1567870768990 with initial instances count: 3
+2019-09-07 23:39:29.426 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://ZKHGUYG0GEXPTS2:8750/
+2019-09-07 23:39:31.922 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=uc, profiles=[dev], label=master, version=75b880b614e0a8cfa7116fc05df66e11e05359ea, state=null
+2019-09-07 23:39:31.923 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/bodyandgirl/gittest2.git/uc-dev.yml'}]}
+2019-09-07 23:39:31.950 [main] INFO  com.UseCenterBootStrap - No active profile set, falling back to default profiles: default
+2019-09-07 23:39:36.975 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-09-07 23:39:37.212 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=dcf18841-c218-3e0c-bf04-04327c1d8d11
+2019-09-07 23:39:37.350 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c7fc0418] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-07 23:39:37.374 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e4160715] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-07 23:39:37.778 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2019-09-07 23:39:37.798 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2019-09-07 23:39:37.810 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-07 23:39:37.811 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-09-07 23:39:37.819 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-09-07 23:39:37.819 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-09-07 23:39:37.819 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-09-07 23:39:37.820 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-09-07 23:39:38.897 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-09-07 23:39:39.116 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-07 23:39:39.116 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7149 ms
+2019-09-07 23:39:39.263 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-07 23:39:39.263 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-07 23:39:39.273 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@57212116
+2019-09-07 23:39:39.416 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-09-07 23:39:39.754 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-09-07 23:39:40.408 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-07 23:39:40.409 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-07 23:39:40.670 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-07 23:39:41.953 [main] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-09-07 23:39:41.966 [main] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-09-07 23:39:41.976 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-07 23:39:42.128 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-09-07 23:39:42.135 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-09-07 23:39:42.140 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-07 23:39:42.141 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-07 23:39:42.141 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-07 23:39:42.141 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-07 23:39:42.238 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-07 23:39:42.240 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-09-07 23:39:42.240 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-09-07 23:39:42.240 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-09-07 23:39:42.240 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-09-07 23:39:42.240 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-09-07 23:39:42.240 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-09-07 23:39:42.241 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-09-07 23:39:42.281 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-09-07 23:39:42.283 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-09-07 23:39:42.286 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-07 23:39:42.287 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1567870782287 with initial instances count: 3
+2019-09-07 23:39:42.290 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application USER-CENTER with eureka with status UP
+2019-09-07 23:39:42.290 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1567870782290, current=UP, previous=STARTING]
+2019-09-07 23:39:42.293 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-CENTER/ZKHGUYG0GEXPTS2:user-center:7777: registering service...
+2019-09-07 23:39:42.317 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2019-09-07 23:39:42.366 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2019-09-07 23:39:42.371 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 7777
+2019-09-07 23:39:42.374 [main] INFO  com.UseCenterBootStrap - Started UseCenterBootStrap in 17.992 seconds (JVM running for 19.729)
+2019-09-07 23:39:42.389 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-CENTER/ZKHGUYG0GEXPTS2:user-center:7777 - registration status: 204
+2019-09-07 23:39:42.930 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-07 23:39:42.930 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-07 23:39:42.945 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2019-09-07 23:39:42.987 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://ZKHGUYG0GEXPTS2:8750/
+2019-09-07 23:39:45.186 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=uc, profiles=[dev], label=master, version=75b880b614e0a8cfa7116fc05df66e11e05359ea, state=null
+2019-09-07 23:46:41.370 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$46b54007] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-07 23:46:41.940 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-09-07 23:46:42.000 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-09-07 23:46:42.603 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-07 23:46:42.604 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-07 23:46:42.748 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-07 23:46:42.749 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-07 23:46:43.057 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-07 23:46:43.211 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-09-07 23:46:43.211 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-09-07 23:46:43.211 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-09-07 23:46:43.211 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-09-07 23:46:43.212 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-09-07 23:46:43.212 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-09-07 23:46:43.212 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-09-07 23:46:43.444 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-09-07 23:46:43.448 [main] INFO  com.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+2019-09-07 23:46:43.460 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1567871203457 with initial instances count: 3
+2019-09-07 23:46:43.948 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://ZKHGUYG0GEXPTS2:8750/
+2019-09-07 23:46:47.517 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=uc, profiles=[dev], label=master, version=75b880b614e0a8cfa7116fc05df66e11e05359ea, state=null
+2019-09-07 23:46:47.520 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/bodyandgirl/gittest2.git/uc-dev.yml'}]}
+2019-09-07 23:46:47.549 [main] INFO  com.UseCenterBootStrap - No active profile set, falling back to default profiles: default
+2019-09-07 23:46:56.798 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-09-07 23:46:57.466 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=dcf18841-c218-3e0c-bf04-04327c1d8d11
+2019-09-07 23:46:57.833 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2a9b3d0a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-07 23:46:57.876 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$46b54007] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-07 23:46:58.606 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2019-09-07 23:46:58.640 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2019-09-07 23:46:58.667 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-07 23:46:58.668 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-09-07 23:46:58.680 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-09-07 23:46:58.681 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-09-07 23:46:58.681 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-09-07 23:46:58.682 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-09-07 23:46:59.789 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-09-07 23:47:00.371 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-07 23:47:00.372 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 12803 ms
+2019-09-07 23:47:00.531 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-07 23:47:00.531 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-07 23:47:00.546 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1124fd8
+2019-09-07 23:47:00.697 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-09-07 23:47:02.706 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-09-07 23:47:03.404 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-07 23:47:03.405 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-07 23:47:03.672 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-07 23:47:05.119 [main] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-09-07 23:47:05.131 [main] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-09-07 23:47:05.141 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-07 23:47:05.299 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-09-07 23:47:05.307 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-09-07 23:47:05.315 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-07 23:47:05.316 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-07 23:47:05.316 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-07 23:47:05.316 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-07 23:47:05.443 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-07 23:47:05.445 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-09-07 23:47:05.446 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-09-07 23:47:05.446 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-09-07 23:47:05.446 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-09-07 23:47:05.446 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-09-07 23:47:05.446 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-09-07 23:47:05.446 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-09-07 23:47:05.453 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-09-07 23:47:05.454 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-09-07 23:47:05.457 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-07 23:47:05.459 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1567871225459 with initial instances count: 3
+2019-09-07 23:47:05.462 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application USER-CENTER with eureka with status UP
+2019-09-07 23:47:05.462 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1567871225462, current=UP, previous=STARTING]
+2019-09-07 23:47:05.465 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-CENTER/ZKHGUYG0GEXPTS2:user-center:7777: registering service...
+2019-09-07 23:47:05.499 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2019-09-07 23:47:05.525 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-CENTER/ZKHGUYG0GEXPTS2:user-center:7777 - registration status: 204
+2019-09-07 23:47:05.543 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2019-09-07 23:47:05.545 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 7777
+2019-09-07 23:47:05.548 [main] INFO  com.UseCenterBootStrap - Started UseCenterBootStrap in 27.35 seconds (JVM running for 29.043)
+2019-09-07 23:47:05.846 [RMI TCP Connection(18)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-07 23:47:05.847 [RMI TCP Connection(18)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-07 23:47:05.866 [RMI TCP Connection(18)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 19 ms
+2019-09-07 23:47:05.921 [RMI TCP Connection(19)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://ZKHGUYG0GEXPTS2:8750/
+2019-09-07 23:47:08.584 [RMI TCP Connection(19)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=uc, profiles=[dev], label=master, version=75b880b614e0a8cfa7116fc05df66e11e05359ea, state=null
+2019-09-07 23:52:05.451 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-07 23:57:05.457 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-08 00:02:05.461 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-08 00:07:05.465 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-08 00:12:05.469 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-08 00:17:05.474 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-08 00:22:05.479 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-08 00:27:05.484 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-08 00:32:05.488 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-08 00:37:05.492 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-08 00:42:05.496 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-08 00:47:05.501 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-08 00:52:05.506 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-08 00:57:05.511 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-08 01:02:05.515 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-08 01:07:05.519 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-08 01:12:05.525 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-08 01:17:05.529 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

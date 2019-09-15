@@ -1,0 +1,3 @@
+===2019-09-07 22:42:13.998 WARN  org.springframework.boot.actuate.endpoint.EndpointId Line:135 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+===2019-09-07 22:42:16.207 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+===2019-09-07 22:42:17.412 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.

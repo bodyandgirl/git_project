@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../../../../ag-websocket/src/main/resources/jquery.min.js/jquery.min.js"></script>
+</head>
+<body>
+<script>
+    $(function() {
+        $.ajax({
+            url: "http://localhost:8765/api/login/user/article",
+            type: "get",
+            beforeSend:function(XHR){
+                XHR.setRequestHeader("Authorization","eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NjgzNTE1NDMsInVzZXJuYW1lIjoiYWRtaW4ifQ.zYC7z7XgItC-gz7f1f8iNoOcrKprZ-HwM3N7JEtaBDM");
+            },
+            success: function (res) {
+                console.log(res);
+            }
+        })
+    });
+</script>
+</body>
+</html>

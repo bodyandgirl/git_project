@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        service-id: ag-config
+        enabled: true
+      label: master #分支
+      name: uc #uc
+      profile: dev #dev   显示 uc-dev.yml

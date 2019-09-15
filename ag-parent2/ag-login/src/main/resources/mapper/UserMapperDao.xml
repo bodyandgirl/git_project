@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+        "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.mapper.UserMapper">
+    <!--List<Role> getRoleByUid(User u);-->
+    <select id="getRoleByUid" resultType="com.entry.Role">
+      select
+        id,role_name as roleName
+      from
+        sys_base_role
+      where
+        id in (
+        select r.role_id
+        from sys_user_role r
+        right join sys_base_user u
+        on u.id = r.user_id
+        where u.username=#{username}
+          and u.password=#{password}
+      );
+
+    </select>
+    <!--List<Permission> getPremission(User u);-->
+    <select id="getPremission" resultType="com.entry.Permission">
+        select p.permission , p.id
+        from sys_base_permission p
+        where id in(
+	      select permission_id
+	      from sys_role_permission
+	      where role_id in (
+		    select id
+		    from sys_base_role
+		    where id in (
+			  select r.role_id from sys_user_role r right join sys_base_user u on u.id = r.user_id where u.username=#{username} and u.password=#{password}
+			)
+	      )
+        )
+    </select>
+
+    <select  id="getOne" resultType="com.entry.User">
+        SELECT  *
+          FROM
+            sys_base_user
+          WHERE
+            username=#{username}
+    </select>
+</mapper>

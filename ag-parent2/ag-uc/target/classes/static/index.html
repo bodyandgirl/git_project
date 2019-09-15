@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<audio id="video" style="display: none;">
+    <source src="n1.mp3" />
+</audio>
+<script type="text/javascript">
+    var audioCmp=document.getElementById("video");
+    function notify(){
+        audioCmp.play();
+    }
+</script>
+<script>
+    "use strict";
+    Notification.requestPermission( (result)=>{ if(result=="denied"){
+        alert("你未打开消息提醒，若需打开请点击网址框左边按钮，选择允许通知")
+    }});
+    const note = new Notification("Hello",{
+        body:"这是哪，你在干什么",
+        tag: "1",
+        data:"YAYAYAYAAADFDFSA",
+        requireInteraction: true
+    });
+    note.onshow = function(){
+        notify();
+    }
+    note.onclick=function(){
+        location.href="http://www.baidu.com"
+        note.close();
+    }
+    note.onclose=function(){
+        alert("关闭中")
+    }
+</script>
+</body>
+</html>

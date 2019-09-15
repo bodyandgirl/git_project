@@ -1,0 +1,159 @@
+                2019-09-07 23:37:56.398 INFO [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a5221cda] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+                               2019-09-07 23:37:56.760 INFO [main]o.s.cloud.netflix.eureka.InstanceInfoFactory.create:71 -Setting initial instance status as: STARTING
+
+                               2019-09-07 23:37:56.815 INFO [main]com.netflix.discovery.DiscoveryClient.<init>:349 -Initializing Eureka in region us-east-1
+
+                               2019-09-07 23:37:57.235 INFO [main]com.netflix.discovery.provider.DiscoveryJerseyProvider.<init>:70 -Using JSON encoding codec LegacyJacksonJson
+
+                               2019-09-07 23:37:57.236 INFO [main]com.netflix.discovery.provider.DiscoveryJerseyProvider.<init>:71 -Using JSON decoding codec LegacyJacksonJson
+
+                               2019-09-07 23:37:57.369 INFO [main]com.netflix.discovery.provider.DiscoveryJerseyProvider.<init>:80 -Using XML encoding codec XStreamXml
+
+                               2019-09-07 23:37:57.370 INFO [main]com.netflix.discovery.provider.DiscoveryJerseyProvider.<init>:81 -Using XML decoding codec XStreamXml
+
+                               2019-09-07 23:37:57.599 INFO [main]c.n.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints:43 -Resolving eureka endpoints via configuration
+
+                               2019-09-07 23:37:57.736 INFO [main]com.netflix.discovery.DiscoveryClient.fetchRegistry:958 -Disable delta property : false
+
+                               2019-09-07 23:37:57.737 INFO [main]com.netflix.discovery.DiscoveryClient.fetchRegistry:959 -Single vip registry refresh property : null
+
+                               2019-09-07 23:37:57.737 INFO [main]com.netflix.discovery.DiscoveryClient.fetchRegistry:960 -Force full registry fetch : false
+
+                               2019-09-07 23:37:57.738 INFO [main]com.netflix.discovery.DiscoveryClient.fetchRegistry:961 -Application is null : false
+
+                               2019-09-07 23:37:57.738 INFO [main]com.netflix.discovery.DiscoveryClient.fetchRegistry:962 -Registered Applications size is zero : true
+
+                               2019-09-07 23:37:57.738 INFO [main]com.netflix.discovery.DiscoveryClient.fetchRegistry:964 -Application version is -1: true
+
+                               2019-09-07 23:37:57.739 INFO [main]com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry:1047 -Getting all instance registry info from the eureka server
+
+                               2019-09-07 23:37:57.999 INFO [main]com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry:1056 -The response status is 200
+
+                               2019-09-07 23:37:58.004 INFO [main]com.netflix.discovery.DiscoveryClient.initScheduledTasks:1317 -Not registering with Eureka server per configuration
+
+                               2019-09-07 23:37:58.012 INFO [main]com.netflix.discovery.DiscoveryClient.<init>:449 -Discovery Client initialized at timestamp 1567870678010 with initial instances count: 3
+
+                               2019-09-07 23:37:58.462 INFO [main]o.s.c.config.client.ConfigServicePropertySourceLocator.getRemoteEnvironment:205 -Fetching config from server at : http://ZKHGUYG0GEXPTS2:8750/
+
+                               2019-09-07 23:38:00.594 INFO [main]o.s.c.config.client.ConfigServicePropertySourceLocator.log:149 -Located environment: name=uc, profiles=[dev], label=master, version=75b880b614e0a8cfa7116fc05df66e11e05359ea, state=null
+
+                               2019-09-07 23:38:00.595 INFO [main]o.s.c.b.config.PropertySourceBootstrapConfiguration.initialize:98 -Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/bodyandgirl/gittest2.git/uc-dev.yml'}]}
+
+                               2019-09-07 23:38:00.627 INFO [main]com.UseCenterBootStrap.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+
+                               2019-09-07 23:38:05.580 WARN [main]org.springframework.boot.actuate.endpoint.EndpointId.logWarning:135 -Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+
+                               2019-09-07 23:38:05.816 INFO [main]org.springframework.cloud.context.scope.GenericScope.setSerializationId:294 -BeanFactory id=dcf18841-c218-3e0c-bf04-04327c1d8d11
+
+                               2019-09-07 23:38:05.948 INFO [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$890819dd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+                               2019-09-07 23:38:05.972 INFO [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a5221cda] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+                               2019-09-07 23:38:06.344 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 7777 (http)
+
+                               2019-09-07 23:38:06.363 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-7777"]
+
+                               2019-09-07 23:38:06.376 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+
+                               2019-09-07 23:38:06.377 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.17]
+
+                               2019-09-07 23:38:06.385 INFO [main]org.apache.catalina.core.AprLifecycleListener.log:173 -An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+
+                               2019-09-07 23:38:06.385 INFO [main]org.apache.catalina.core.AprLifecycleListener.log:173 -Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+
+                               2019-09-07 23:38:06.386 INFO [main]org.apache.catalina.core.AprLifecycleListener.log:173 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+
+                               2019-09-07 23:38:06.386 INFO [main]org.apache.catalina.core.AprLifecycleListener.log:173 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+
+                               2019-09-07 23:38:07.474 INFO [main]org.apache.catalina.core.AprLifecycleListener.log:173 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+
+                               2019-09-07 23:38:07.648 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+
+                               2019-09-07 23:38:07.649 INFO [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 7005 ms
+
+                               2019-09-07 23:38:07.800 WARN [main]com.netflix.config.sources.URLConfigurationSource.<init>:121 -No URLs will be polled as dynamic configuration sources.
+
+                               2019-09-07 23:38:07.801 INFO [main]com.netflix.config.sources.URLConfigurationSource.<init>:122 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+                               2019-09-07 23:38:07.846 INFO [main]com.netflix.config.DynamicPropertyFactory.getInstance:281 -DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2495bc30
+
+                               2019-09-07 23:38:07.980 INFO [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+
+                               2019-09-07 23:38:08.358 INFO [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+
+                               2019-09-07 23:38:08.990 WARN [main]com.netflix.config.sources.URLConfigurationSource.<init>:121 -No URLs will be polled as dynamic configuration sources.
+
+                               2019-09-07 23:38:08.991 INFO [main]com.netflix.config.sources.URLConfigurationSource.<init>:122 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+                               2019-09-07 23:38:09.249 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+
+                               2019-09-07 23:38:10.524 INFO [main]com.netflix.discovery.DiscoveryClient.shutdown:888 -Shutting down DiscoveryClient ...
+
+                               2019-09-07 23:38:10.535 INFO [main]com.netflix.discovery.DiscoveryClient.shutdown:911 -Completed shut down of DiscoveryClient
+
+                               2019-09-07 23:38:10.546 INFO [main]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:59 -Exposing 2 endpoint(s) beneath base path '/actuator'
+
+                               2019-09-07 23:38:10.698 INFO [main]o.s.cloud.netflix.eureka.InstanceInfoFactory.create:71 -Setting initial instance status as: STARTING
+
+                               2019-09-07 23:38:10.704 INFO [main]com.netflix.discovery.DiscoveryClient.<init>:349 -Initializing Eureka in region us-east-1
+
+                               2019-09-07 23:38:10.709 INFO [main]com.netflix.discovery.provider.DiscoveryJerseyProvider.<init>:70 -Using JSON encoding codec LegacyJacksonJson
+
+                               2019-09-07 23:38:10.710 INFO [main]com.netflix.discovery.provider.DiscoveryJerseyProvider.<init>:71 -Using JSON decoding codec LegacyJacksonJson
+
+                               2019-09-07 23:38:10.710 INFO [main]com.netflix.discovery.provider.DiscoveryJerseyProvider.<init>:80 -Using XML encoding codec XStreamXml
+
+                               2019-09-07 23:38:10.711 INFO [main]com.netflix.discovery.provider.DiscoveryJerseyProvider.<init>:81 -Using XML decoding codec XStreamXml
+
+                               2019-09-07 23:38:10.812 INFO [main]c.n.discovery.shared.resolver.aws.ConfigClusterResolver.getClusterEndpoints:43 -Resolving eureka endpoints via configuration
+
+                               2019-09-07 23:38:10.814 INFO [main]com.netflix.discovery.DiscoveryClient.fetchRegistry:958 -Disable delta property : false
+
+                               2019-09-07 23:38:10.815 INFO [main]com.netflix.discovery.DiscoveryClient.fetchRegistry:959 -Single vip registry refresh property : null
+
+                               2019-09-07 23:38:10.816 INFO [main]com.netflix.discovery.DiscoveryClient.fetchRegistry:960 -Force full registry fetch : false
+
+                               2019-09-07 23:38:10.816 INFO [main]com.netflix.discovery.DiscoveryClient.fetchRegistry:961 -Application is null : false
+
+                               2019-09-07 23:38:10.817 INFO [main]com.netflix.discovery.DiscoveryClient.fetchRegistry:962 -Registered Applications size is zero : true
+
+                               2019-09-07 23:38:10.817 INFO [main]com.netflix.discovery.DiscoveryClient.fetchRegistry:964 -Application version is -1: true
+
+                               2019-09-07 23:38:10.817 INFO [main]com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry:1047 -Getting all instance registry info from the eureka server
+
+                               2019-09-07 23:38:10.824 INFO [main]com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry:1056 -The response status is 200
+
+                               2019-09-07 23:38:10.826 INFO [main]com.netflix.discovery.DiscoveryClient.initScheduledTasks:1270 -Starting heartbeat executor: renew interval is: 30
+
+                               2019-09-07 23:38:10.829 INFO [main]com.netflix.discovery.InstanceInfoReplicator.<init>:60 -InstanceInfoReplicator onDemand update allowed rate per min is 4
+
+                               2019-09-07 23:38:10.832 INFO [main]com.netflix.discovery.DiscoveryClient.<init>:449 -Discovery Client initialized at timestamp 1567870690832 with initial instances count: 3
+
+                               2019-09-07 23:38:10.835 INFO [main]o.s.c.n.eureka.serviceregistry.EurekaServiceRegistry.register:42 -Registering application USER-CENTER with eureka with status UP
+
+                               2019-09-07 23:38:10.836 INFO [main]com.netflix.discovery.DiscoveryClient.notify:1305 -Saw local status change event StatusChangeEvent [timestamp=1567870690836, current=UP, previous=STARTING]
+
+                               2019-09-07 23:38:10.839 INFO [DiscoveryClient-InstanceInfoReplicator-0]com.netflix.discovery.DiscoveryClient.register:826 -DiscoveryClient_USER-CENTER/ZKHGUYG0GEXPTS2:user-center:7777: registering service...
+
+                               2019-09-07 23:38:10.867 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-7777"]
+
+                               2019-09-07 23:38:10.904 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 7777 (http) with context path ''
+
+                               2019-09-07 23:38:10.905 INFO [main]o.s.c.n.e.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent:141 -Updating port to 7777
+
+                               2019-09-07 23:38:10.907 INFO [main]com.UseCenterBootStrap.logStarted:59 -Started UseCenterBootStrap in 17.209 seconds (JVM running for 18.617)
+
+                               2019-09-07 23:38:10.934 INFO [DiscoveryClient-InstanceInfoReplicator-0]com.netflix.discovery.DiscoveryClient.register:835 -DiscoveryClient_USER-CENTER/ZKHGUYG0GEXPTS2:user-center:7777 - registration status: 204
+
+                               2019-09-07 23:38:11.057 INFO [RMI TCP Connection(2)-127.0.0.1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+                               2019-09-07 23:38:11.058 INFO [RMI TCP Connection(2)-127.0.0.1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+
+                               2019-09-07 23:38:11.076 INFO [RMI TCP Connection(2)-127.0.0.1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 18 ms
+
+                               2019-09-07 23:38:11.121 INFO [RMI TCP Connection(4)-127.0.0.1]o.s.c.config.client.ConfigServicePropertySourceLocator.getRemoteEnvironment:205 -Fetching config from server at : http://ZKHGUYG0GEXPTS2:8750/
+
+                               2019-09-07 23:38:13.040 INFO [RMI TCP Connection(4)-127.0.0.1]o.s.c.config.client.ConfigServicePropertySourceLocator.log:149 -Located environment: name=uc, profiles=[dev], label=master, version=75b880b614e0a8cfa7116fc05df66e11e05359ea, state=null
+
+               

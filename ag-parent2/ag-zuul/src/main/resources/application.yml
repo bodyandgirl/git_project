@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: ag-gate
+zuul:
+  prefix: /api #拦截所有以api开头的请求都经过zuul路由
+  routes: #todo 路由表定义
+    user-center:
+      path: /uc/**
+      service-id: user-center
+    ag-login:
+      path: /login/**
+      service-id: ag-login
+    ag-websocket:
+      path: /websocket/**
+      service-id: ag-websocket
+  sensitive-headers:
+  - Cookie,Set-Cookie,Authorization
+
+
+eureka:
+  client:
+    service-url:
+     defaultZone: http://localhost:8761/eureka
+server:
+  port: 8765

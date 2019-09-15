@@ -1,0 +1,14 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: ag-websocket
+  mvc:
+    view:
+      suffix: .html
+      prefix: /
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
