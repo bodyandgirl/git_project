@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/js/jquery.min.js" ></script>
+    <script src="/js/qrcode.min.js" ></script>
+
+</head>
+<body>
+<input type="button" value="微信登录" th:onclick="wechatLogin()" />
+<input type="hidden" id="sessionId" />
+<br/><br/><br/><br/>
+<div id="code"></div>
+<div id="userinfo"></div>
+<script>
+    var c = null;
+    // 监听
+    function getInfoJson(){
+        $.ajax({
+            url: "/getInfoJson",
+            type: "get",
+            success: function(res){
+                if(res != "no"){
+                    $("#userinfo").html(res);
+                    //登录成功 ， 取消监听
+                    clearInterval(c);
+                }
+            }
+        })
+    }
+
+    //
+    function wechatLogin(){
+        $.ajax({
+            url : "/wxLoginPage",
+            type: "POST",
+            success : function(data){
+                $("#sessionId").val(data.sessionId);
+                //生成二维码
+                var qrcode = new QRCode(document.getElementById("code"),{
+                    width : 200,
+                    height: 200
+                });
+                qrcode.makeCode(data.uri);
+                //监听是否成功登录（每秒执行一次 getInfoJson方法）
+                c = setInterval(getInfoJson,1000);
+            }
+        })
+    }
+</script>
+</body>
+</html>
