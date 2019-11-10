@@ -1,0 +1,23 @@
+spring:
+  rabbitmq:
+    port: 5672
+    virtual-host: /
+    host: localhost
+    username: lee
+    password: 123456
+    listener:
+      simple:
+        concurrency: 10
+        max-concurrency: 20
+        prefetch: 50
+basic:
+  rabbit:
+    direct:
+      queue: basic.rabbit.direct.queue
+      exchange: basic.rabbit.direct.exchange
+      route-key: basic.rabbot.direct.routeKey
+    listener:
+      simple:
+        concurrency: 10
+        max-concurrency: 20
+        prefetch: 50

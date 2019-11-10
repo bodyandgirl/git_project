@@ -1,0 +1,9 @@
+mybatis:
+  mapper-locations: classpath*:/mappings/**/*.xml
+  config-location: classpath:/mybatis/mybatis-config.xml
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  row-bounds-with-count: true
+  page-size-zero: true
+  offset-as-page-num: false

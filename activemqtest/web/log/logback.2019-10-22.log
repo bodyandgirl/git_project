@@ -1,0 +1,448 @@
+00:41:01.433 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 6372 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+00:41:01.451 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log
+00:41:26.585 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+00:41:26.706 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+00:41:26.783 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:41:26.784 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+00:41:26.823 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+00:41:26.824 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+00:41:26.825 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+00:41:26.825 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+00:41:28.007 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+00:41:28.680 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:41:28.681 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 26582 ms
+00:41:29.464 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+00:41:30.693 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+00:41:33.727 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+00:41:36.433 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+00:41:36.590 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+00:41:36.604 logback [main] INFO  com.SpringWebBootStrap - Started SpringWebBootStrap in 44.22 seconds (JVM running for 75.02)
+00:43:03.675 logback [rebel-change-detector-thread] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.dao]' package. Please check your configuration.
+00:45:51.499 logback [rebel-change-detector-thread] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.dao]' package. Please check your configuration.
+00:48:28.544 logback [rebel-change-detector-thread] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.dao]' package. Please check your configuration.
+00:48:47.144 logback [rebel-change-detector-thread] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.dao]' package. Please check your configuration.
+00:49:43.536 logback [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:49:43.537 logback [http-nio-9999-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+00:49:43.663 logback [http-nio-9999-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 126 ms
+00:50:50.742 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 7508 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+00:50:50.753 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log
+00:51:02.498 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+00:51:02.541 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+00:51:02.564 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:51:02.565 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+00:51:02.580 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+00:51:02.581 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+00:51:02.582 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+00:51:02.582 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+00:51:03.683 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+00:51:03.945 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:51:03.945 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 12985 ms
+00:51:04.198 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+00:51:04.897 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+00:51:06.344 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+00:51:07.754 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+00:51:07.826 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+00:51:07.837 logback [main] INFO  com.SpringWebBootStrap - Started SpringWebBootStrap in 19.58 seconds (JVM running for 30.037)
+00:51:42.536 logback [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:51:42.537 logback [http-nio-9999-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+00:51:42.582 logback [http-nio-9999-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 44 ms
+00:51:50.082 logback [http-nio-9999-exec-1] INFO  com.listener.PushEventListener - 监听到事件对象：PushApplicationEvent(orderType=orderType123, orderNo=orderNo-123456)
+00:57:52.292 logback [http-nio-9999-exec-5] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.dao]' package. Please check your configuration.
+00:58:02.044 logback [http-nio-9999-exec-5] INFO  com.listener.PushEventListener - 监听到事件对象：PushApplicationEvent(orderType=orderType123, orderNo=orderNo-123456)
+02:15:49.124 logback [http-nio-9999-exec-10] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.dao]' package. Please check your configuration.
+02:16:51.132 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 9472 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+02:16:51.141 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log
+02:17:02.559 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+02:17:02.600 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+02:17:02.624 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02:17:02.627 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+02:17:02.643 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+02:17:02.706 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+02:17:02.707 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+02:17:02.707 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+02:17:03.789 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+02:17:04.048 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:17:04.049 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 12708 ms
+02:17:04.293 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+02:17:05.019 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+02:17:05.765 logback [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'rabbitController': Unsatisfied dependency expressed through field 'rabbitTemplate'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitmqConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.rabbitmq.listener.simple.concurrency' in value "${spring.rabbitmq.listener.simple.concurrency}"
+02:17:05.768 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+02:17:05.778 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+02:17:05.788 logback [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+02:17:05.860 logback [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+02:17:05.998 logback [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'rabbitController': Unsatisfied dependency expressed through field 'rabbitTemplate'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitmqConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.rabbitmq.listener.simple.concurrency' in value "${spring.rabbitmq.listener.simple.concurrency}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.__refresh(AbstractApplicationContext.java:549)
+	at org.springframework.context.support.AbstractApplicationContext.jrLockAndRefresh(AbstractApplicationContext.java:40002)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:41008)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.SpringWebBootStrap.main(SpringWebBootStrap.java:19)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitmqConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.rabbitmq.listener.simple.concurrency' in value "${spring.rabbitmq.listener.simple.concurrency}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:392)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.rabbitmq.listener.simple.concurrency' in value "${spring.rabbitmq.listener.simple.concurrency}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:172)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1188)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	... 41 common frames omitted
+02:18:22.755 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 4016 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+02:18:22.764 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log
+02:18:34.073 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+02:18:34.119 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+02:18:34.142 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02:18:34.143 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+02:18:34.166 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+02:18:34.166 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+02:18:34.167 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+02:18:34.167 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+02:18:35.266 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+02:18:35.493 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:18:35.493 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 12483 ms
+02:18:35.733 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+02:18:36.396 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+02:18:37.093 logback [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'rabbitController': Unsatisfied dependency expressed through field 'rabbitTemplate'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitmqConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'basic.rabbit.listener.simple.concurrency' in value "${basic.rabbit.listener.simple.concurrency}"
+02:18:37.096 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+02:18:37.106 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+02:18:37.114 logback [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+02:18:37.158 logback [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+02:18:37.182 logback [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'rabbitController': Unsatisfied dependency expressed through field 'rabbitTemplate'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitmqConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'basic.rabbit.listener.simple.concurrency' in value "${basic.rabbit.listener.simple.concurrency}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.__refresh(AbstractApplicationContext.java:549)
+	at org.springframework.context.support.AbstractApplicationContext.jrLockAndRefresh(AbstractApplicationContext.java:40002)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:41008)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.SpringWebBootStrap.main(SpringWebBootStrap.java:19)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitmqConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'basic.rabbit.listener.simple.concurrency' in value "${basic.rabbit.listener.simple.concurrency}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:392)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'basic.rabbit.listener.simple.concurrency' in value "${basic.rabbit.listener.simple.concurrency}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:172)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1188)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	... 41 common frames omitted
+02:19:51.201 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 9220 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+02:19:51.211 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log
+02:20:02.986 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+02:20:03.033 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+02:20:03.060 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02:20:03.060 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+02:20:03.075 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+02:20:03.076 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+02:20:03.077 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+02:20:03.078 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+02:20:04.141 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+02:20:04.423 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:20:04.424 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 13031 ms
+02:20:04.775 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+02:20:05.518 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+02:20:06.276 logback [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'rabbitController': Unsatisfied dependency expressed through field 'rabbitTemplate'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitmqConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'basic.rabbit.listener.simple.concurrency' in value "${basic.rabbit.listener.simple.concurrency}"
+02:20:06.280 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+02:20:06.290 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+02:20:06.298 logback [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+02:20:06.341 logback [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+02:20:06.366 logback [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'rabbitController': Unsatisfied dependency expressed through field 'rabbitTemplate'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitmqConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'basic.rabbit.listener.simple.concurrency' in value "${basic.rabbit.listener.simple.concurrency}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.__refresh(AbstractApplicationContext.java:549)
+	at org.springframework.context.support.AbstractApplicationContext.jrLockAndRefresh(AbstractApplicationContext.java:40002)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:41008)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.SpringWebBootStrap.main(SpringWebBootStrap.java:19)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitmqConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'basic.rabbit.listener.simple.concurrency' in value "${basic.rabbit.listener.simple.concurrency}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:392)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'basic.rabbit.listener.simple.concurrency' in value "${basic.rabbit.listener.simple.concurrency}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:172)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1188)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	... 41 common frames omitted
+02:20:35.487 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 7532 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+02:20:35.497 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log,rabbitmq
+02:20:46.962 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+02:20:47.004 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+02:20:47.027 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02:20:47.028 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+02:20:47.045 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+02:20:47.045 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+02:20:47.046 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+02:20:47.047 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+02:20:48.174 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+02:20:48.402 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:20:48.403 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 12698 ms
+02:20:48.639 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+02:20:49.257 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+02:20:49.980 logback [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'rabbitController': Unsatisfied dependency expressed through field 'rabbitTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'rabbitmqConfig': Unsatisfied dependency expressed through field 'simpleMaxConcurrency'; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "${basic.rabbit.listener.simple.max-concurrency"
+02:20:49.983 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+02:20:49.992 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+02:20:50.001 logback [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+02:20:50.039 logback [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+02:20:50.066 logback [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'rabbitController': Unsatisfied dependency expressed through field 'rabbitTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'rabbitmqConfig': Unsatisfied dependency expressed through field 'simpleMaxConcurrency'; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "${basic.rabbit.listener.simple.max-concurrency"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.__refresh(AbstractApplicationContext.java:549)
+	at org.springframework.context.support.AbstractApplicationContext.jrLockAndRefresh(AbstractApplicationContext.java:40002)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:41008)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.SpringWebBootStrap.main(SpringWebBootStrap.java:19)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'rabbitmqConfig': Unsatisfied dependency expressed through field 'simpleMaxConcurrency'; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "${basic.rabbit.listener.simple.max-concurrency"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:392)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "${basic.rabbit.listener.simple.max-concurrency"
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:79)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 43 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "${basic.rabbit.listener.simple.max-concurrency"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:569)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:211)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	... 46 common frames omitted
+02:21:21.285 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 10184 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+02:21:21.296 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log,rabbitmq
+02:21:32.556 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+02:21:32.597 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+02:21:32.620 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02:21:32.621 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+02:21:32.636 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+02:21:32.637 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+02:21:32.638 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+02:21:32.639 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+02:21:33.785 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+02:21:34.016 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:21:34.017 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 12517 ms
+02:21:34.254 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+02:21:34.984 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+02:21:44.129 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+02:21:45.556 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+02:21:45.633 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+02:21:45.645 logback [main] INFO  com.SpringWebBootStrap - Started SpringWebBootStrap in 26.354 seconds (JVM running for 37.763)
+02:21:50.407 logback [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02:21:50.408 logback [http-nio-9999-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02:21:50.437 logback [http-nio-9999-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 28 ms
+02:22:04.463 logback [http-nio-9999-exec-1] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+02:22:04.722 logback [http-nio-9999-exec-1] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#7c31a506:0/SimpleConnection@44033158 [delegate=amqp://lee@127.0.0.1:5672/, localPort= 55210]
+02:22:05.308 logback [http-nio-9999-exec-1] INFO  com.web.RabbitController - 发送信息成功：
+02:22:05.316 logback [AMQP Connection 127.0.0.1:5672] INFO  com.config.RabbitmqConfig - 消息发送失败：exchange:() ,route() , replyCode(312),replyText:(NO_ROUTE),message:((Body:'[B@6a02f02d(byte[8])' MessageProperties [headers={}, contentType=application/octet-stream, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, deliveryTag=0]))
+02:22:05.322 logback [AMQP Connection 127.0.0.1:5672] INFO  com.config.RabbitmqConfig - 消息发送成功:correlationData: (null) , ack : (true) ,cause: (null)
+02:24:19.482 logback [http-nio-9999-exec-6] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.dao]' package. Please check your configuration.
+02:24:41.971 logback [http-nio-9999-exec-6] INFO  com.web.RabbitController - 发送信息中
+02:24:41.999 logback [AMQP Connection 127.0.0.1:5672] INFO  com.config.RabbitmqConfig - 消息发送失败：exchange:() ,route() , replyCode(312),replyText:(NO_ROUTE),message:((Body:'[B@63ae53ab(byte[9])' MessageProperties [headers={}, contentType=application/octet-stream, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, deliveryTag=0]))
+02:24:42.000 logback [AMQP Connection 127.0.0.1:5672] INFO  com.config.RabbitmqConfig - 消息发送成功:correlationData: (null) , ack : (true) ,cause: (null)
+02:29:19.026 logback [http-nio-9999-exec-8] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.dao]' package. Please check your configuration.
+02:29:25.876 logback [http-nio-9999-exec-8] INFO  com.web.RabbitController - 发送信息中
+02:29:26.050 logback [AMQP Connection 127.0.0.1:5672] INFO  com.config.RabbitmqConfig - 消息发送成功:correlationData: (null) , ack : (true) ,cause: (null)
+23:45:42.777 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 9604 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+23:45:42.803 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log,rabbitmq
+23:46:06.305 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+23:46:06.401 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+23:46:06.451 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:46:06.452 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+23:46:06.498 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+23:46:06.498 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+23:46:06.499 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+23:46:06.499 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:46:08.140 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+23:46:08.769 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:46:08.769 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 24449 ms
+23:46:09.228 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+23:46:10.226 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23:46:13.870 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+23:46:16.064 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+23:46:16.172 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+23:46:16.186 logback [main] INFO  com.SpringWebBootStrap - Started SpringWebBootStrap in 41.049 seconds (JVM running for 73.786)
+23:48:28.974 logback [rebel-change-detector-thread] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.dao]' package. Please check your configuration.
+23:49:07.803 logback [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:49:07.804 logback [http-nio-9999-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+23:49:07.910 logback [http-nio-9999-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 106 ms
+23:49:08.149 logback [http-nio-9999-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+23:49:38.844 logback [http-nio-9999-exec-3] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+23:49:39.024 logback [http-nio-9999-exec-3] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#6bbff66f:0/SimpleConnection@2503685 [delegate=amqp://lee@127.0.0.1:5672/, localPort= 51386]
+23:49:39.303 logback [http-nio-9999-exec-3] INFO  com.web.RabbitController - 发送对象成功
+23:49:39.345 logback [AMQP Connection 127.0.0.1:5672] INFO  com.config.RabbitmqConfig - 消息发送成功:correlationData: (null) , ack : (true) ,cause: (null)

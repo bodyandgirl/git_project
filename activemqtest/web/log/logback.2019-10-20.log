@@ -1,0 +1,331 @@
+11:44:30.534 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 6140 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+11:44:30.542 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log
+11:44:42.653 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com]' package. Please check your configuration.
+11:44:44.354 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+11:44:44.407 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+11:44:44.432 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:44:44.433 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+11:44:44.451 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+11:44:44.451 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+11:44:44.452 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:44:44.452 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:44:45.548 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+11:44:46.294 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:44:46.295 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 15600 ms
+11:44:46.901 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:44:47.193 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+11:44:47.801 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+11:44:48.955 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+11:44:49.030 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+11:44:49.041 logback [main] INFO  com.SpringWebBootStrap - Started SpringWebBootStrap in 21.152 seconds (JVM running for 30.183)
+11:46:32.729 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 9768 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+11:46:32.737 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log
+11:46:44.839 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com]' package. Please check your configuration.
+11:46:46.518 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+11:46:46.558 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+11:46:46.578 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:46:46.579 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+11:46:46.592 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+11:46:46.593 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+11:46:46.593 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:46:46.593 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:46:47.700 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+11:46:47.927 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:46:47.927 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 15036 ms
+11:46:48.530 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:46:48.844 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+11:46:49.458 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+11:46:50.303 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+11:46:50.378 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+11:46:50.388 logback [main] INFO  com.SpringWebBootStrap - Started SpringWebBootStrap in 19.471 seconds (JVM running for 30.218)
+11:48:06.624 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 7996 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+11:48:06.632 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log
+11:48:19.257 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com]' package. Please check your configuration.
+11:48:21.003 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+11:48:21.046 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+11:48:21.069 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:48:21.070 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+11:48:21.084 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+11:48:21.085 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+11:48:21.085 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:48:21.086 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:48:22.288 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+11:48:22.999 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:48:22.999 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 16208 ms
+11:48:23.682 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:48:23.996 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+11:48:24.814 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+11:48:25.928 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+11:48:26.182 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+11:48:26.198 logback [main] INFO  com.SpringWebBootStrap - Started SpringWebBootStrap in 21.555 seconds (JVM running for 32.042)
+11:48:52.127 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 2292 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+11:48:52.152 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log
+11:49:06.275 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com]' package. Please check your configuration.
+11:49:07.892 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+11:49:07.931 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+11:49:07.952 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:49:07.952 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+11:49:07.966 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+11:49:07.967 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+11:49:07.967 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:49:07.967 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:49:09.053 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+11:49:09.272 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:49:09.273 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 16508 ms
+11:49:09.929 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:49:10.321 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+11:49:10.879 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+11:49:11.728 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+11:49:11.800 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+11:49:11.810 logback [main] INFO  com.SpringWebBootStrap - Started SpringWebBootStrap in 21.662 seconds (JVM running for 34.549)
+11:51:39.234 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 5476 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+11:51:39.248 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log
+11:51:51.362 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com]' package. Please check your configuration.
+11:51:53.079 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+11:51:53.125 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+11:51:53.149 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:51:53.150 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+11:51:53.166 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+11:51:53.167 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+11:51:53.167 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:51:53.168 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:51:54.264 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+11:51:54.839 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:51:54.839 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 15430 ms
+11:51:55.452 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:51:55.754 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+11:51:56.495 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+11:51:57.482 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+11:51:57.550 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+11:51:57.564 logback [main] INFO  com.SpringWebBootStrap - Started SpringWebBootStrap in 20.196 seconds (JVM running for 30.749)
+12:02:28.597 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 9852 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+12:02:28.611 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log
+12:02:41.225 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com]' package. Please check your configuration.
+12:02:42.884 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+12:02:42.932 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+12:02:42.955 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:02:42.956 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+12:02:42.974 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+12:02:42.975 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+12:02:42.975 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12:02:42.976 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12:02:44.086 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+12:02:44.355 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:02:44.356 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 15560 ms
+12:02:45.189 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:02:45.522 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+12:02:46.155 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+12:02:47.110 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+12:02:47.181 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+12:02:47.191 logback [main] INFO  com.SpringWebBootStrap - Started SpringWebBootStrap in 20.644 seconds (JVM running for 31.622)
+12:03:59.497 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 3996 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+12:03:59.507 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log
+12:04:11.410 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com]' package. Please check your configuration.
+12:04:13.107 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+12:04:13.149 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+12:04:13.172 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:04:13.173 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+12:04:13.188 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+12:04:13.189 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+12:04:13.189 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12:04:13.190 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12:04:14.334 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+12:04:15.044 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:04:15.045 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 15375 ms
+12:04:15.671 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:04:15.975 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+12:04:16.632 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+12:04:17.539 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+12:04:17.608 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+12:04:17.619 logback [main] INFO  com.SpringWebBootStrap - Started SpringWebBootStrap in 20.031 seconds (JVM running for 29.996)
+12:05:25.075 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 11240 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+12:05:25.085 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log
+12:05:37.141 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com]' package. Please check your configuration.
+12:05:38.779 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+12:05:38.825 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+12:05:38.848 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:05:38.849 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+12:05:38.863 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+12:05:38.864 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+12:05:38.865 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12:05:38.865 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12:05:39.999 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+12:05:40.626 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:05:40.627 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 15378 ms
+12:05:41.257 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:05:41.630 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+12:05:42.314 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+12:05:43.192 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+12:05:43.273 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+12:05:43.285 logback [main] INFO  com.SpringWebBootStrap - Started SpringWebBootStrap in 20.042 seconds (JVM running for 30.779)
+12:06:03.224 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 10692 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+12:06:03.235 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log
+12:06:15.952 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com]' package. Please check your configuration.
+12:06:17.786 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+12:06:17.897 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+12:06:17.923 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:06:17.924 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+12:06:17.939 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+12:06:17.940 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+12:06:17.941 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12:06:17.942 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12:06:19.058 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+12:06:19.794 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:06:19.796 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 16397 ms
+12:06:20.421 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:06:20.758 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+12:06:21.383 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+12:06:22.310 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+12:06:22.402 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+12:06:22.413 logback [main] INFO  com.SpringWebBootStrap - Started SpringWebBootStrap in 21.037 seconds (JVM running for 32.183)
+12:06:49.045 logback [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@6c42f2a1 - There is no conversion class registered for composite conversion word [blodGreen]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@6c42f2a1 - Failed to create converter for [%blodGreen] keyword
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:82)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:292)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:265)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:228)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:201)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.SpringWebBootStrap.main(SpringWebBootStrap.java:17)
+12:07:15.977 logback [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@608bc8f8 - There is no conversion class registered for composite conversion word [oldGreen]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@608bc8f8 - Failed to create converter for [%oldGreen] keyword
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:82)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:292)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:265)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:228)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:201)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.SpringWebBootStrap.main(SpringWebBootStrap.java:17)
+12:07:44.172 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 11016 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+12:07:44.188 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log
+12:07:58.122 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com]' package. Please check your configuration.
+12:07:59.907 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+12:07:59.945 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+12:07:59.968 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:07:59.969 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+12:07:59.983 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+12:07:59.983 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+12:07:59.984 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12:07:59.985 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12:08:01.111 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+12:08:01.658 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:08:01.659 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 17271 ms
+12:08:02.320 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:08:02.610 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+12:08:03.165 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+12:08:04.073 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+12:08:04.144 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+12:08:04.155 logback [main] INFO  com.SpringWebBootStrap - Started SpringWebBootStrap in 22.69 seconds (JVM running for 32.984)
+12:09:42.079 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 9352 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+12:09:42.089 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log
+12:09:56.309 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com]' package. Please check your configuration.
+12:09:58.243 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+12:09:58.291 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+12:09:58.315 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:09:58.316 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+12:09:58.330 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+12:09:58.330 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+12:09:58.331 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12:09:58.331 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12:09:59.464 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+12:10:00.095 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:10:00.096 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 17816 ms
+12:10:00.782 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:10:01.399 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+12:10:02.083 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+12:10:03.068 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+12:10:03.136 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+12:10:03.146 logback [main] INFO  com.SpringWebBootStrap - Started SpringWebBootStrap in 23.19 seconds (JVM running for 37.839)
+12:12:47.676 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 10512 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+12:12:47.685 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log
+12:12:59.563 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com]' package. Please check your configuration.
+12:13:01.224 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+12:13:01.269 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+12:13:01.289 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:13:01.290 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+12:13:01.304 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+12:13:01.305 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+12:13:01.305 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12:13:01.306 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12:13:02.439 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+12:13:03.010 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:13:03.011 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 15148 ms
+12:13:03.608 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12:13:03.898 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+12:13:04.479 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+12:13:05.312 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+12:13:05.384 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+12:13:05.395 logback [main] INFO  com.SpringWebBootStrap - Started SpringWebBootStrap in 19.635 seconds (JVM running for 30.974)
+17:29:41.106 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 10440 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+17:29:41.124 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log
+17:29:55.451 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com]' package. Please check your configuration.
+17:29:57.062 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+17:29:57.121 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+17:29:57.149 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:29:57.150 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+17:29:57.173 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+17:29:57.173 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+17:29:57.174 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+17:29:57.174 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:29:58.258 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+17:29:58.473 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:29:58.473 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 17179 ms
+17:29:59.530 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:29:59.829 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+17:30:00.545 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+17:30:01.713 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+17:30:01.850 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+17:30:01.866 logback [main] INFO  com.SpringWebBootStrap - Started SpringWebBootStrap in 22.697 seconds (JVM running for 34.786)
+17:35:41.905 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 10608 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+17:35:41.919 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log
+17:35:54.351 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com]' package. Please check your configuration.
+17:35:55.957 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+17:35:55.999 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+17:35:56.021 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:35:56.021 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+17:35:56.036 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+17:35:56.037 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+17:35:56.037 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+17:35:56.038 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:35:57.176 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+17:35:57.873 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:35:57.875 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 15772 ms
+17:35:58.530 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:35:58.824 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+17:35:59.522 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+17:36:00.720 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+17:36:00.817 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+17:36:00.842 logback [main] INFO  com.SpringWebBootStrap - Started SpringWebBootStrap in 20.838 seconds (JVM running for 32.326)
+18:18:01.164 logback [rebel-change-detector-thread] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com]' package. Please check your configuration.
+20:45:22.495 logback [http-nio-9999-exec-3] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com]' package. Please check your configuration.
+20:45:27.997 logback [http-nio-9999-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:45:27.998 logback [http-nio-9999-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:45:28.085 logback [http-nio-9999-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 86 ms

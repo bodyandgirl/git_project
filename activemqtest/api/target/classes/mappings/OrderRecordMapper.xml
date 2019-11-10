@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+        "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.dao.OrderRecordDao">
+    <!--Page<OrderRecord> findAllList();-->
+    <select id="findAllList" resultType="OrderRecord">
+      SELECT * FROM `order-record`
+    </select>
+
+    <!--Integer insertEntity(OrderRecord orderRecord);-->
+    <insert id="insertEntity" parameterType="com.entity.OrderRecord">
+        INSERT INTO
+         `order-record` (
+          `order_type`,`order_no`
+         )
+        VALUES(
+          #{orderType},#{orderNo}
+        )
+    </insert>
+
+    <!--OrderRecord  findById(Integer id);-->
+    <select id="findById" resultType="OrderRecord">
+        SELECT *
+        FROM
+         `order-record`
+        WHERE
+         id =#{id}
+    </select>
+
+    <!--Page<OrderRecord> findList(OrderRecord orderRecord);-->
+    <select id="findList" resultType="com.entity.OrderRecord">
+        SELECT * FROM
+          `order-record`
+        <where>
+            1 = 1
+            <if test="id !=null and id !='' ">
+             AND   id = #{id}
+            </if>
+             <if test="orderType !=null and orderType !='' ">
+                 AND `order_type` = #{orderType}
+             </if>
+            <if test="orderNo !=null and orderNo != '' ">
+                AND `order_no` = #{orderNo}
+            </if>
+        </where>
+    </select>
+</mapper>

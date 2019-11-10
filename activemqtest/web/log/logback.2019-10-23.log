@@ -1,0 +1,59 @@
+00:04:49.153 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 6232 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+00:04:49.166 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log,rabbitmq
+00:04:59.807 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+00:05:00.157 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+00:05:00.178 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:05:00.178 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+00:05:00.192 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+00:05:00.193 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+00:05:00.193 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+00:05:00.194 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+00:05:01.286 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+00:05:01.506 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:05:01.507 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 12074 ms
+00:05:01.727 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+00:05:02.330 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+00:05:03.769 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+00:05:05.485 logback [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+00:05:05.583 logback [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#4d6c93fd:0/SimpleConnection@e7d7618 [delegate=amqp://lee@127.0.0.1:5672/, localPort= 51758]
+00:05:05.982 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+00:05:06.143 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+00:05:06.169 logback [main] INFO  com.SpringWebBootStrap - Started SpringWebBootStrap in 18.942 seconds (JVM running for 32.061)
+00:07:34.823 logback [rebel-change-detector-thread] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.dao]' package. Please check your configuration.
+00:08:41.444 logback [rebel-change-detector-thread] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.dao]' package. Please check your configuration.
+00:09:30.392 logback [rebel-change-detector-thread] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.dao]' package. Please check your configuration.
+00:11:10.463 logback [rebel-change-detector-thread] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.dao]' package. Please check your configuration.
+00:15:36.892 logback [main] INFO  com.SpringWebBootStrap - Starting SpringWebBootStrap on ZKHGUYG0GEXPTS2 with PID 3972 (F:\Intellij_IDEA\activemqtest\web\target\classes started by Administrator in F:\Intellij_IDEA\activemqtest\web)
+00:15:36.929 logback [main] INFO  com.SpringWebBootStrap - The following profiles are active: mysql,mybatis,log,rabbitmq
+00:15:52.976 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+00:15:53.017 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+00:15:53.040 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:15:53.041 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+00:15:53.057 logback [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+00:15:53.058 logback [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+00:15:53.058 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+00:15:53.059 logback [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+00:15:54.192 logback [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+00:15:54.491 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:15:54.492 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 17250 ms
+00:15:54.794 logback [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+00:15:55.419 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+00:15:57.111 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+00:15:58.688 logback [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+00:15:58.852 logback [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#79927fc8:0/SimpleConnection@7440b7d3 [delegate=amqp://lee@127.0.0.1:5672/, localPort= 52141]
+00:15:59.128 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+00:15:59.339 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+00:15:59.362 logback [main] INFO  com.SpringWebBootStrap - Started SpringWebBootStrap in 25.228 seconds (JVM running for 36.463)
+00:18:13.542 logback [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:18:13.543 logback [http-nio-9999-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+00:18:13.645 logback [http-nio-9999-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 101 ms
+00:18:14.202 logback [http-nio-9999-exec-1] INFO  com.web.RabbitController - 发送信息中
+00:18:14.265 logback [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] WARN  o.s.a.s.c.Jackson2JsonMessageConverter - Could not convert incoming message with content-type [application/octet-stream], 'json' keyword missing.
+00:18:14.217 logback [AMQP Connection 127.0.0.1:5672] INFO  com.config.RabbitmqConfig - 消息发送成功:correlationData: (null) , ack : (true) ,cause: (null)
+00:18:27.418 logback [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  com.rabbitListener.CommonListener - 接收到消息：123你好
+00:19:19.474 logback [http-nio-9999-exec-4] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.dao]' package. Please check your configuration.
+00:19:24.024 logback [http-nio-9999-exec-4] WARN  o.s.a.r.l.SimpleMessageListenerContainer - 'missingQueuesFatal' is ignored during the initial start(), for lazily loaded containers
+00:19:24.856 logback [http-nio-9999-exec-4] INFO  com.web.RabbitController - 发送对象成功
+00:19:24.866 logback [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] WARN  o.s.a.s.c.Jackson2JsonMessageConverter - Could not convert incoming message with content-type [application/octet-stream], 'json' keyword missing.
+00:19:24.871 logback [AMQP Connection 127.0.0.1:5672] INFO  com.config.RabbitmqConfig - 消息发送成功:correlationData: (null) , ack : (true) ,cause: (null)
+00:19:24.875 logback [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  com.rabbitListener.CommonListener - 接收到信息：User(name=邱玉豪, nickName=null, classNo=he_no123)

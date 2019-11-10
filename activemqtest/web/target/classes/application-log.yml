@@ -1,0 +1,6 @@
+# 因为使用logback-spring.xml配置文件，所以以下配置失效
+#logging:
+  #level:
+    #root: info
+    #com:
+      #dao: debug
